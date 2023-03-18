@@ -1,0 +1,29 @@
+* {
+    margin: 0;
+    padding: 0;
+}
+body {
+    font-family: monospace;
+    background: bisque;
+    font-size:100%;
+    box-sizing: border-box;
+}
+
+.nav {
+    font-size: 1.2rem;
+    background-color: salmon;
+}
+
+.nav ul li {
+    display: inline-block;
+    padding: 10px;
+}
+.nav ul li a {
+    color:whitesmoke;
+    text-decoration: none;
+    font-weight: 900;
+}
+
+.nav ul li a:hover, a:focus {
+    color: dodgerblue;
+}
