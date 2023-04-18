@@ -1,29 +1,69 @@
+@import url('https://fonts.googleapis.com/css2?family=Poppins:ital,wght@0,300;0,400;0,500;0,700;1,400&family=Roboto:wght@100;400;700&display=swap');
+
 * {
     margin: 0;
     padding: 0;
-}
-body {
-    font-family: monospace;
-    background: bisque;
-    font-size:100%;
     box-sizing: border-box;
+    outline: none;
+    font-family: 'Poppins', sans-serif;
+    font-size:100%;
+    list-style: none;
+}
+
+/*
+bg -> #F3F7F0
+accent -> #F2545B
+darker accent -> #A93F55
+text > #19323C
+ */
+body {
+    background: #F3F7F0;
+    margin: 10px 2%;
+}
+
+.monogram {
+    width: 84px;
+    height: 32px;
+    background-color: #A93F55;
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    align-items: center;
+    border-radius: 4px;
+}
+
+.monogram > a {
+    text-decoration: none;
+}
+
+.monogram-letter {
+    color: #F3F7F0;
+    font-size: 1.1em;
+    margin: 0 auto;
 }
 
 .nav {
-    font-size: 1.2rem;
-    background-color: salmon;
+    font-size: 1em;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+}
+
+.nav ul {
+    min-height: 100%;
 }
 
 .nav ul li {
     display: inline-block;
-    padding: 10px;
-}
-.nav ul li a {
-    color:whitesmoke;
-    text-decoration: none;
-    font-weight: 900;
+    padding-left: 24px;
 }
 
-.nav ul li a:hover, a:focus {
-    color: dodgerblue;
+.nav ul li a {
+    text-decoration: none;
+    color: #19323C;
+    transition: 0.3s;
+}
+
+.nav ul li a:hover {
+    color: #A93F55;
 }
