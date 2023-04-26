@@ -1,0 +1,16 @@
+section.footer {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+section.footer p {
+    color: var(--text-color);
+}
+
+section.footer span.footer-icon {
+    color: var(--accent-color);
+    width: 32px;
+    font-size: 1.5em;
+    margin-left: 8px;
+}
