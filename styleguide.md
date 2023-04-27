@@ -1,10 +1,3 @@
-/*
-bg -> #F3F7F0
-accent -> #F2545B
-darker accent -> #A93F55
-text > #19323C
- */
- 
 ### Light theme
 - background: `#F3F7F0`
 - text color: `#19323C`

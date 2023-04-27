@@ -19,7 +19,6 @@
 
 body {
     background:var(--bg);
-    margin: 2% 2%;
     display: grid;
     min-height: 100vh;
     grid-template-rows: 1fr auto;

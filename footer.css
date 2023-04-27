@@ -1,3 +1,7 @@
+footer {
+    margin: 0;
+}
+
 section.footer {
     display: flex;
     justify-content: center;
